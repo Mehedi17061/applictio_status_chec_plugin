@@ -1,3 +1,118 @@
+<style>
+.application_form_class {
+    width: 377px;
+    margin: auto;
+    border: 1px solid #cfcfcf;
+    padding: 10px 35px;
+    box-shadow: inset 3px -2px 11px 0px #d5d5d5;
+    border-radius: 5px;
+    text-align: center;
+}
+.application_form_class input {
+    outline: none !important;
+    border: 2px solid #e4e4e4 !important;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.application_form_class  h2 {
+    font-size: 1.6rem !important;
+    font-family: system-ui;
+    font-weight: 500;
+    margin: 10px 0px 20px;
+}
+
+.table_class {
+	width: 90%;
+	margin:auto;
+}
+
+.form-group{
+position:relative;
+}
+
+.form-group i {
+    position: absolute;
+    /* transform: translateY(-50%); */
+    display: block;
+    right: 0px;
+    top: 0px;
+    background: #f1f1f1;
+    padding: 7px;
+    /* font-size: 20px; */
+    color: #8b5252;
+    border-radius: 0px 5px 5px 0px;
+    width: 32px;
+}
+
+@media (max-width: 600px){
+	.form-group i {
+    position: absolute;
+    /* transform: translateY(-50%); */
+    display: block;
+    right: 0px;
+    top: 0px;
+    background: #f1f1f1;
+    padding: 8px;
+    /* font-size: 20px; */
+    color: #8b5252;
+    border-radius: 0px 5px 5px 0px;
+    width: 32px;
+}
+.table {
+    overflow-x: auto!important;
+    margin-left: 180px;
+}
+/*
+.table-container {
+    overflow: hidden;
+    position: relative; 
+	width:400px;
+} */
+	
+}
+
+.modal.show .modal-dialog {
+    transform: translateX(93%);
+    background: red;
+}
+
+
+input#reset {
+    padding: 9px 30px !important;
+    background: gray !important;
+}
+
+.btn {
+    padding: 10px 30px !important;
+    margin: 0px 5px;
+}
+
+/* .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+} */
+
+/* Hide certain elements on desktop and tablet */
+/* @media (min-width: 768px) {
+  .d-md-none {
+    display: none !important;
+  }
+} */
+
+/* Ensure the table takes full width on mobile */
+/* @media (max-width: 767px) {
+  .table-responsive-sm table {
+    width: 100%;
+  }
+} */
+
+
+
+
+</style>
+
+
 <?php
 /**
  * Plugin Name: Application Check Plugin
